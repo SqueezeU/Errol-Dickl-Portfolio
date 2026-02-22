@@ -13,7 +13,7 @@ This project was part of the first practical exercise completed during my AI and
 - Application of a Machine Learning (ML) model
 
 📄 **Main file:**  
-[`Análisis exploratorio y modelado predictivo de precios de viviendas en Barcelona.ipynb`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)
+[`Análisis exploratorio y modelado predictivo de precios de viviendas en Barcelona.ipynb`](https://github.com/SqueezeU/Errol-Dickl-Portfolio/blob/main/DA%20-%20ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)
 
 ---
 
