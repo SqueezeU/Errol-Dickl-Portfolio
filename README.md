@@ -48,7 +48,7 @@ Interactive visualizations created in Power BI, focused on exploratory analysis 
 👉 the following Topics click on the headers to view detailed information
 ---
 
-### 🚀 [ETL_EDA_KNIME](./ETL-EDA%20KNIME)
+### 🚀 [ETL_EDA_KNIME](./DA%20-%20ETL-EDA%20KNIME)
 
 ETL workflow using KNIME for data cleaning, transformation, and exploratory analysis on Barcelona real estate data.
 
@@ -58,7 +58,7 @@ ETL workflow using KNIME for data cleaning, transformation, and exploratory anal
 
 ---
 
-### 🐍 [ETL & Predictive Modeling (Python)](./ETL-EDA%20Python)
+### 🐍 [ETL & Predictive Modeling (Python)](./DA%20-%20ETL-EDA%20Python)
 
 ETL workflows and exploratory data analysis in Python - Comprehensive EDA and house price prediction workflow
 
@@ -68,14 +68,14 @@ ETL workflows and exploratory data analysis in Python - Comprehensive EDA and ho
 
 **Technologies:** Python, Pandas, Scikit-Learn, Matplotlib/Seaborn<br>
 
-📓 [Notebook: Housing Price Analysis Barcelona (`.ipynb`)](./ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)
+📓 [Notebook: Housing Price Analysis Barcelona (`.ipynb`)](./DA%20-%20ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)
 
 **Features II:**<br>
 👉 Universal Code Logic: Although documented in Spanish, the technical workflow follows global best practices and clean coding standards<br>
 
 ---
 
-### 🧠 [Audio-to-FAQ Whisper (Python & AI)](./Audio-to-FAQ%20Whisper%20(Python))
+### 🧠 [Audio-to-FAQ Whisper (Python & AI)](./AI%20-%20Audio-to-FAQ%20Whisper%20(Python))
 Automated transcription and intelligent FAQ generation using local AI.
 
 **Key Highlights:**<br>
@@ -90,13 +90,13 @@ Automated transcription and intelligent FAQ generation using local AI.
 **Technologies:** Python, OpenAI Whisper (Local), JSON, Audio Processing
 
 👉 **Content available – documentation included**  
-📄 [Script Python (`.py`)](./Audio-to-FAQ%20Whisper%20(Python)/run_whisper_auto.py)  
-📄 [Archive JSON (`.json`)](./Audio-to-FAQ%20Whisper%20(Python)/calls_full_faq_v2.json)  
-📄 [Documentation (`.pdf`)](./Audio-to-FAQ%20Whisper%20(Python)/Add_Documentacion_Whisper_Local.pdf)
+📄 [Script Python (`.py`)](./AI%20-%20Audio-to-FAQ%20Whisper%20(Python)/run_whisper_auto.py)  
+📄 [Archive JSON (`.json`)](./AI%20-%20Audio-to-FAQ%20Whisper%20(Python)/calls_full_faq_v2.json)  
+📄 [Documentation (`.pdf`)](./AI%20-%20Audio-to-FAQ%20Whisper%20(Python)/Add_Documentacion_Whisper_Local.pdf)
 
 ---
 
-### 🤖 [ML Prediction (Python & Enterprise AutoML)](./ML%20Prediction)
+### 🤖 [ML Prediction (Python & Enterprise AutoML)](./DS%20-%20ML%20Prediction)
 A dual-perspective project comparing custom coding with collaborative enterprise AI solution<br>
 
 **Key Highlights:**<br>
@@ -116,14 +116,14 @@ Demonstrates the ability to switch between manual coding (Python) and low-code/A
 
 👉**Deliverables:**<br>
 
-📓[Python Notebook: Custom Modelling (`.ipynb`)](./ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)<br>
-📄[Technical Report: WatsonX AutoML (.pdf)](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/ML%20Prediction/Datos%20de%20viviendas%20en%20alquiler%20en%20la%20ciudad%20de%20Barcelona%20-%20P4%20Regresor%20XGB%20-%20Modelo_2025_1_8_17_23_27.pdf))<br>  
+📓[Python Notebook: Custom Modelling (`.ipynb`)](./DA%20-%20ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)<br>
+📄[Technical Report: WatsonX AutoML (.pdf)](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/ML%20Prediction/Datos%20de%20viviendas%20en%20alquiler%20en%20la%20ciudad%20de%20Barcelona%20-%20P4%20Regresor%20XGB%20-%20Modelo_2025_1_8_17_23_27.pdf))<br>  
 
 ---
 
-### 🧠 [RAG‑LLM: Local Retrieval‑Augmented Generation with Open‑Source Tools](./RAG-LLM)<br>  
+### 🧠 [RAG‑LLM: Local Retrieval‑Augmented Generation with Open‑Source Tools](./AI%20-%20RAG-LLM)<br>  
 This project demonstrates how to implement Retrieval‑Augmented Generation (RAG) entirely on a local machine, without relying on cloud services. Using tools such as GPT4All, LangChain, llama‑index, and Ollama, I built several workflows that enable Large Language Models to integrate external knowledge from documents like PDFs, TXTs, and CSVs<br>  
-📎 [Visual Presentation (PPSX)](./RAG-LLM/Mi-Travesia-por-el-Laberinto-de-la-IA-Generativa_PPP%20hecho%20con%20Gamma.ppsx)<br>
+📎 [Visual Presentation (PPSX)](./AI%20-%20RAG-LLM/Mi-Travesia-por-el-Laberinto-de-la-IA-Generativa_PPP%20hecho%20con%20Gamma.ppsx)<br>
 
 **🔍 Project Objectives**<br>
 Build a fully local RAG pipeline using vector databases and embedding models<br>
@@ -136,7 +136,7 @@ GPT4All and Ollama for running LLMs locally
 
 ---
 
-### 🤖 [Chatbots – Overview](./Chatbots)  
+### 🤖 [Chatbots – Overview](./AI%20-%20Chatbots)  
 This folder contains two chatbot prototypes developed during my practical work with Large Language Models (LLMs).
 Both examples explore different approaches to building conversational AI — one using cloud‑based models, the other integrating local document retrieval.
 
@@ -145,14 +145,14 @@ A simple customer‑support style assistant built with a web interface.
 This example focuses on user interaction, prompt design, and deploying a conversational flow.
 
 👉 See this notebook for the full implementation
-- [Cloud-based chatbot (Gradio + GPT-4)](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/Bot%20Cloud%20Gradio%20%2B%20GPT4.ipynb)
+- [Cloud-based chatbot (Gradio + GPT-4)](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/Chatbots/Bot%20Cloud%20Gradio%20%2B%20GPT4.ipynb)
 
 **🧠 Local RAG Chatbot**
 A second prototype that can answer questions based on local documents.
 This version demonstrates how a chatbot can integrate private or domain‑specific knowledge.
 
 👉 Details and code are available in the internal README and notebooks.
-- [RAG-based chatbot using llama-index](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)
+- [RAG-based chatbot using llama-index](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)
 
 **Live-Demo folgt - derzeit in Überarbeitung**
 
@@ -182,7 +182,7 @@ ETL, EDA, ML Prediction & Power BI Dashboard using Barcelona real estate data.
 
 Practical scripts and tools for day-to-day data work.
 
-👉 [View Tools](https://github.com/SqueezeU/Errol-Dickl-Portfolio/tree/main/Daily-Tools)
+👉 [View Tools](https://github.com/SqueezeU/Errol-Dickl-Portfolio/tree/main/Other%20-%20Daily-Tools)
 
 ---
 
