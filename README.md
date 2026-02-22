@@ -191,5 +191,5 @@ Practical scripts and tools for day-to-day data work.
 **Errol Dickl**  
 🌍 Remote (Worldwide)<br>
 💡 I speak German, English and Spanish<br>
-✉️ errol@dndlabs.tech  
+✉️ errol@dndlabs.de
 🔗 [LinkedIn](https://www.linkedin.com/in/errol-d-723667a5/)
