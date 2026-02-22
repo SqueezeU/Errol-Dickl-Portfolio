@@ -145,7 +145,7 @@ A simple customer‑support style assistant built with a web interface.
 This example focuses on user interaction, prompt design, and deploying a conversational flow.
 
 👉 See this notebook for the full implementation
-- [Cloud-based chatbot (Gradio + GPT-4)](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/Chatbots/Bot%20Cloud%20Gradio%20%2B%20GPT4.ipynb)
+- [Cloud-based chatbot (Gradio + GPT-4)](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/AI-Chatbots/Bot%20Cloud%20Gradio%20%2B%20GPT4.ipynb)
 
 **🧠 Local RAG Chatbot**
 A second prototype that can answer questions based on local documents.
