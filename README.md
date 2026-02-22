@@ -174,7 +174,7 @@ The implementation, analysis, and logic were carried out by me as part of my lea
 **Barcelona Housing Price Analysis** – Team project (2 contributors)
 ETL, EDA, ML Prediction & Power BI Dashboard using Barcelona real estate data.
 
-👉 https://github.com/PEA-IA-DS-Proyecto-2
+👉 [Team Project - Barcelona Housing Price Analysis](https://github.com/PEA-IA-DS-Proyecto-2)
 
 ---
 
