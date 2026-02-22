@@ -169,6 +169,23 @@ The implementation, analysis, and logic were carried out by me as part of my lea
 
 ---
 
+## 🤝 Collaborative Project
+
+**Barcelona Housing Price Analysis** – Team project (2 contributors)
+ETL, EDA, ML Prediction & Power BI Dashboard using Barcelona real estate data.
+
+👉 [View Project](https://github.com/PEA-IA-DS-Proyecto-2/Project-2----Analisis-y-Modelado-Predictivo-de-Precios-de-Viviendas-en-Barcelona)
+
+---
+
+## 🛠️ Daily Tools & Automation
+
+Practical scripts and tools for day-to-day data work.
+
+👉 [View Tools](https://github.com/SqueezeU/Errol-Dickl-Portfolio/tree/main/Daily-Tools)
+
+---
+
 ## 🤝 Contact
 
 **Errol Dickl**  
