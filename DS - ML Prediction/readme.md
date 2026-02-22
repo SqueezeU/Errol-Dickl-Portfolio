@@ -42,7 +42,7 @@ The objective was to build a prediction model for rental housing prices in Barce
 - Evaluation and optimization of the model (`XGBRegressor`)
 
 📄 **Final report:**  
-[`Rental Housing Data – WatsonX Model (PDF)`](https://github.com/SqueezeU/Errol-Dickl-Portfolio/blob/main/ML%20Prediction/Datos%20de%20viviendas%20en%20alquiler%20en%20la%20ciudad%20de%20Barcelona%20-%20P4%20Regresor%20XGB%20-%20Modelo_2025_1_8_17_23_27.pdf)
+[`Rental Housing Data – WatsonX Model (PDF)`](https://github.com/SqueezeU/Errol-Dickl-Portfolio/blob/main/DS%20-%20ML%20Prediction/Datos%20de%20viviendas%20en%20alquiler%20en%20la%20ciudad%20de%20Barcelona%20-%20P4%20Regresor%20XGB%20-%20Modelo_2025_1_8_17_23_27.pdf)
 
 ⚠️ **Note:**  
 This repository does not include the model code, which was generated on the IBM platform.  
