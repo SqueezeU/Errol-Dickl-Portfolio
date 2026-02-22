@@ -152,7 +152,7 @@ A second prototype that can answer questions based on local documents.
 This version demonstrates how a chatbot can integrate private or domain‑specific knowledge.
 
 👉 Details and code are available in the internal README and notebooks.
-- [RAG-based chatbot using llama-index](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)
+- [RAG-based chatbot using llama-index](https://github.com/SqueezeU/Errol-DICKL-PORTFOLIO/blob/main/AI%20-%20Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)
 
 **Live-Demo folgt - derzeit in Überarbeitung**
 
