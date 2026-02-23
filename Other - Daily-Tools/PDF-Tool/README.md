@@ -1,73 +1,113 @@
-# 📄 PDF Tool
+# 📄 PDF Tool – DND Labs
 
-**Rotate · Compress · Merge PDF files — no technical knowledge required**
+**PDFs automatisch korrigieren · komprimieren · zusammenführen**
 
-A lightweight Windows desktop app to fix scanned PDFs: rotate upside-down pages, compress file size, and merge multiple PDFs into one. Built with Python & PyMuPDF.
+A lightweight Windows desktop app to fix scanned PDFs: automatically detect and correct page rotation (90°, 180°, 270°), compress file size, and merge multiple PDFs into one. Built with Python & PyMuPDF.
 
 ---
 
 ## ✨ Features
 
-- 🔄 Rotate all pages by 180° (with optional exceptions per file)
-- 📦 Compress PDFs and normalize to 75% DIN A4
-- 📎 Merge multiple PDFs into a single document — in any order
-- 🖥️ Simple GUI — no command line needed
+- 🔄 **Automatische Rotationskorrektur** – erkennt ob Seiten 90°, 180° oder 270° gedreht sind und korrigiert sie verlustfrei
+- 🗜️ **Komprimierung** – spart typischerweise 40–80% Dateigröße (garbage collection, deflate)
+- 📎 **Zusammenführen** – mehrere PDFs zu einem Dokument, in beliebiger Reihenfolge
+- 📁 **Flexible Auswahl** – ganzen Ordner oder einzelne Dateien direkt auswählen
+- ✅ **Ausnahmen** – bestimmte Dateien vom Drehen ausschließen
+- 🖥️ **Einfache GUI** – kein Terminal, kein Python-Wissen nötig (für die .exe Version)
 
 ---
 
-## 🚀 For End Users (no Python required)
+## 🚀 Für Endnutzer – Fertige .exe (kein Python nötig)
 
-👉 Available on request — contact us at [dndlabs.de](https://www.dndlabs.de)
+> **Die einfachste Option:** Fertige Windows-App, sofort nutzbar per Doppelklick.
+
+👉 **[Jetzt auf Gumroad kaufen – €4,99](https://dndlabs.gumroad.com)**
+
+Im Paket enthalten:
+- `PDF Tool User.exe` – startet sofort, keine Installation
+- Benutzerhandbuch als PDF
 
 ---
 
-## 🛠️ For Developers
+## 🛠️ Für Entwickler – Selbst bauen
 
-### Requirements
+### Voraussetzungen
+
 ```bash
 pip install pymupdf pyinstaller
 ```
 
-### Run from source
+### Direkt aus dem Quellcode starten
+
 ```bash
-python pdf_tool_devs.py
+python PDF_Tool_Devs.py
 ```
 
-### Build the .exe yourself
+### .exe selbst bauen
+
 ```bash
-pyinstaller --onefile --windowed --name "PDF Tool" pdf_tool_devs.py
-```
-Or just double-click `exe_erstellen.bat`.
-
-### File overview
-
-| File | Description |
-|------|-------------|
-| `pdf_tool_devs.py` | Main app — GUI + all logic in one file |
-| `exe_erstellen.bat` | Builds the .exe via PyInstaller |
-
-### How it works
-
-Each page is rendered as a high-res pixel image (2x scale = 144 dpi) using PyMuPDF. This approach correctly resolves any embedded PDF rotation values before applying the 180° flip. Pages are then saved at 75% DIN A4 with maximum compression flags.
-
-**Key settings to customize:**
-```python
-A4_WIDTH  = int(595 * 0.75)   # Output width  — change 0.75 for different scale
-A4_HEIGHT = int(842 * 0.75)   # Output height
-
-# Compression flags in neues_doc.save():
-garbage=4, deflate=True, deflate_images=True, deflate_fonts=True
+pyinstaller "PDF Tool User.spec"
 ```
 
-### Possible extensions
-- OCR integration via `pytesseract`
-- Drag & Drop via `tkinterdnd2`
-- Page preview before rotation
-- Password protection for output PDFs
-- Auto-rotation detection via Tesseract OSD
+Oder einfach `exe_erstellen.bat` doppelklicken – erkennt Anaconda automatisch.
+
+Die fertige .exe liegt danach in `dist\PDF Tool User.exe`.
 
 ---
 
-## 📋 License
+## 📁 Dateiübersicht
 
-Free to use and modify. Built by [DND Labs](https://www.dndlabs.de)
+| Datei | Beschreibung |
+|-------|-------------|
+| `PDF_Tool_Devs.py` | Hauptdatei – GUI + Logik in einer Datei |
+| `PDF Tool User.spec` | PyInstaller Konfiguration |
+| `exe_erstellen.bat` | Automatischer Build-Helper für Anaconda |
+
+---
+
+## 🔧 Technischer Stack
+
+| | |
+|---|---|
+| **Sprache** | Python 3.10+ |
+| **PDF-Bibliothek** | PyMuPDF (fitz) |
+| **GUI** | Tkinter |
+| **EXE-Builder** | PyInstaller |
+
+### Rotationskorrektur (Kernlogik)
+
+```python
+doc = fitz.open(str(pfad))
+for nr in range(len(doc)):
+    seite = doc[nr]
+    if seite.rotation != 0:
+        seite.set_rotation(0)  # 90/180/270 → 0, verlustfrei
+doc.save(ausgabe, garbage=4, deflate=True, deflate_images=True,
+         deflate_fonts=True, clean=True)
+```
+
+> `set_rotation(0)` korrigiert die PDF-Struktur direkt – kein Qualitätsverlust durch Pixel-Rendering.
+
+---
+
+## 💡 Mögliche Erweiterungen
+
+- OCR-Integration via `pytesseract`
+- Drag & Drop (tkinterdnd2)
+- Seitenvorschau vor dem Drehen
+- Passwortschutz für Ausgabe-PDFs
+- Migration zu PyQt6/PySide6
+
+---
+
+## 📜 Lizenz
+
+MIT License – freie Nutzung, Änderung und Weitergabe des Quellcodes.
+
+Die **fertige .exe** inklusive DND Labs Branding ist kommerziell und nicht im Repo enthalten.
+
+---
+
+<p align="center">
+  © 2025 <a href="https://www.dndlabs.de">DND Labs UG (haftungsbeschränkt)</a> · Data · Nimbus · Dickl
+</p>
