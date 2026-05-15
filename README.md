@@ -8,7 +8,7 @@ AI & Data Science Portfolio
     <td style="vertical-align: top;">
 Welcome to my portfolio of projects in Data Science and generative AI.<br>
 <br>      
-I'm Errol Dickl, a Data Analyst and ML Engineer with 20+ years of 
+I'm Errol Dickl, a Data Scientis and ML Engineer with 20+ years of 
 international project experience, specialized in operational AI solutions 
 and business-driven insights<br>
 <br>
