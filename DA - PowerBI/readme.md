@@ -16,7 +16,8 @@ Worked with Power Query, DAX, and dynamic visualizations.
 - Measures: Avg. cost, Age max/min
 - Visualizations: KPIs, conditional tables, treemaps, waterfall chart with tooltip
 
-📁 File: `Dickl_Ej1.pbix`
+📁 `Dickl_Ej1.pbix`
+
 ---
 
 ### 🔷 Exercise 2 – Power BI
