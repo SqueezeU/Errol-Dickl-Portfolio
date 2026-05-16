@@ -37,7 +37,7 @@ It uses local documents combined with GPT-4 response generation.
 - `Gradio` as conversational interface
 
 📘 **Notebook:** [`RAG_llama_index_Errol_BEREINIGT.ipynb`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)  
-📄 📄 **Additional explanation:** [`Bot_Cliente_Codigo_y_Explicacion_ES.docx`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/Bot_Cliente_Codigo_y_Explicacion_ES.docx)
+📄 **Additional explanation:** [`Bot_Cliente_Codigo_y_Explicacion_ES.docx`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/Bot_Cliente_Codigo_y_Explicacion_ES.docx)
 
 ---
 
