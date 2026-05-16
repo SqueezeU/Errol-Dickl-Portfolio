@@ -16,8 +16,7 @@ Worked with Power Query, DAX, and dynamic visualizations.
 - Measures: Avg. cost, Age max/min
 - Visualizations: KPIs, conditional tables, treemaps, waterfall chart with tooltip
 
-📁 File: `Dickl_Ej1.pbix` (in [PowerBI folder](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/tree/main/DA%20-%20PowerBI))
-
+📁 File: `Dickl_Ej1.pbix`
 ---
 
 ### 🔷 Exercise 2 – Power BI
@@ -31,7 +30,7 @@ Applied conditional rules, hierarchical matrices, and advanced visuals.
 - Top 5 salaries, % margin per surname  
 - Manual interactions and filters
 
-📁 File: `Dickl_Ej2.pbix` (in [PowerBI folder](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/tree/main/DA%20-%20PowerBI))
+📁 File: `Dickl_Ej2.pbix` 
 
 ---
 
@@ -45,7 +44,7 @@ Dashboard with advanced transformations, custom groups, and navigation using **T
 - Custom tooltip and drillthrough pages by city  
 - Adjusted brand identity and styling
 
-📁 File: `Dickl_Ej3.pbix` (in [PowerBI folder](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/tree/main/DA%20-%20PowerBI))
+📁 File: `Dickl_Ej3.pbix` 
 
 ---
 
@@ -60,4 +59,4 @@ The goal: Predict housing prices in Barcelona and visualize the results.
 - Visualization of model results and predictions  
 - Predictive margins per district and area
 
-📁 File: `Final Project Power BI.pbix` (in [PowerBI folder](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/tree/main/DA%20-%20PowerBI))
+📁 File: `Final Project Power BI.pbix` 
