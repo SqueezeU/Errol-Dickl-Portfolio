@@ -70,6 +70,7 @@ ETL workflows and exploratory data analysis in Python - Comprehensive EDA and ho
 ### 🧠 [RAG‑LLM: Local Retrieval‑Augmented Generation with Open‑Source Tools](./AI%20-%20RAG-LLM)<br>  
 This project demonstrates how to implement Retrieval‑Augmented Generation (RAG) entirely on a local machine, without relying on cloud services. Using tools such as GPT4All, LangChain, llama‑index, and Ollama, I built several workflows that enable Large Language Models to integrate external knowledge from documents like PDFs, TXTs, and CSVs<br>  
 📎 [Visual Presentation (PPSX)](./AI%20-%20RAG-LLM/Mi-Travesia-por-el-Laberinto-de-la-IA-Generativa_PPP%20hecho%20con%20Gamma.ppsx)<br>
+📓 [RAG Notebook: llama-index (`.ipynb`)](./AI%20-%20Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)<br>
 
 **🔍 Project Objectives**<br>
 Build a fully local RAG pipeline using vector databases and embedding models<br>
