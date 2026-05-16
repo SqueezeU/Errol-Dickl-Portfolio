@@ -21,7 +21,7 @@ This bot simulates a customer service assistant using **Gradio** as the web inte
 - Gradio user interface  
 - Direct implementation in Python
 
-📘 **Notebook:** [`Bot_Cloud_Gradio_+_GPT4.ipynb`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/Bot%20Cloud%20Gradio%20%2B%20GPT4.ipynb)
+📘 **Notebook:** [`Bot_Cloud_Gradio_+_GPT4.ipynb`](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/blob/main/AI%20-%20Chatbots/Bot%20Cloud%20Gradio%20%2B%20GPT4.ipynb)
 
 ---
 
@@ -36,17 +36,16 @@ It uses local documents combined with GPT-4 response generation.
 - `OpenAI` as response engine  
 - `Gradio` as conversational interface
 
-📘 **Notebook:** [`RAG_llama_index_Errol_BEREINIGT.ipynb`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)  
-📄 **Additional explanation:** [`Bot_Cliente_Codigo_y_Explicacion_ES.docx`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/Bot_Cliente_Codigo_y_Explicacion_ES.docx)
+📘 **Notebook:** [`RAG_llama_index_Errol_BEREINIGT.ipynb`](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/blob/main/AI%20-%20Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)  
+📄 **Additional explanation:** [`Bot_Cliente_Codigo_y_Explicacion_ES.docx`](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/blob/main/AI%20-%20Chatbots/Bot_Cliente_Codigo_y_Explicacion_ES.docx)
 
 ---
 
 ### 🔐 How to Use the OpenAI API Locally
 
-The file [`API_Key_OpenAI.md`](https://github.com/SqueezeU/Portfolio-AI-DS/blob/main/Chatbots/API_Key_OpenAI.md) explains how to add your OpenAI API key as a local environment variable without writing it in the code.
+The file [`API_Key_OpenAI.md`](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/blob/main/AI%20-%20Chatbots/API_Key_OpenAI.md) explains how to add your OpenAI API key as a local environment variable without writing it in the code.
 
 ⚠️ API keys should never be uploaded to GitHub.
-
 
 ...
 
