@@ -153,8 +153,6 @@ Interactive visualizations created in Power BI, focused on exploratory analysis 
 ![Power BI Drillthrough](Images/Power%20BI%203%20Drill%20through.png)
 ### Tooltip Example
 ![Power BI Tooltip](Images/Power%20BI%203%20with%20ToolTip.png)
-### Overview
-![Power BI Overview](Images/Power%20BI%201.png)
 
 ---
 
