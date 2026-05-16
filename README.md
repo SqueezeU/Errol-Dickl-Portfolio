@@ -101,8 +101,6 @@ This version demonstrates how a chatbot can integrate private or domain‑specif
 👉 Details and code are available in the internal README and notebooks.
 - [RAG-based chatbot using llama-index](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/blob/main/AI%20-%20Chatbots/RAG_llama_index_Errol_BEREINIGT.ipynb)
 
-**Live-Demo folgt - derzeit in Überarbeitung**
-
 ---
 
 ### 🧠 [Audio-to-FAQ Whisper (Python & AI)](./AI%20-%20Audio-to-FAQ%20Whisper%20(Python))
