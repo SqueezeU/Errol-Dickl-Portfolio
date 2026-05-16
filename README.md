@@ -134,7 +134,7 @@ ETL workflow using KNIME for data cleaning, transformation, and exploratory anal
 
 ---
 
-### 📊 PowerBI  
+### 📊 [PowerBI](./DA%20-%20PowerBI)
 Interactive visualizations created in Power BI, focused on exploratory analysis and clear data presentation
 👉 **Sample business intelligence dashboards for sales and vendor analysis**
 
