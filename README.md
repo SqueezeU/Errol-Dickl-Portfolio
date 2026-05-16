@@ -46,7 +46,7 @@ Demonstrates the ability to switch between manual coding (Python) and low-code/A
 👉**Deliverables:**<br>
 
 📓[Python Notebook: Custom Modelling (`.ipynb`)](./DA%20-%20ETL-EDA%20Python/An%C3%A1lisis%20exploratorio%20y%20modelado%20predictivo%20de%20precios%20de%20viviendas%20en%20Barcelona.ipynb)<br>
-📄[Technical Report: WatsonX AutoML (.pdf)](https://github.com/SqueezeU/Applied-AI-DataScience-Projects/blob/main/DS%20-%20ML%20Prediction/Datos%20de%20viviendas%20en%20alquiler%20en%20la%20ciudad%20de%20Barcelona%20-%20P4%20Regresor%20XGB%20-%20Modelo_2025_1_8_17_23_27.pdf))<br>
+📄[Team Project Report: WatsonX AutoML](https://github.com/PEA-IA-DS-Proyecto-2/Project-2---Analisis-y-Modelado-Predictivo-de-Precios-de-Viviendas-en-Barcelona)<br>
 
 ---
 
