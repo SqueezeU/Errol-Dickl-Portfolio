@@ -155,7 +155,6 @@ Interactive visualizations created in Power BI, focused on exploratory analysis 
 ![Power BI Tooltip](Images/Power%20BI%203%20with%20ToolTip.png)
 ### Overview
 ![Power BI Overview](Images/Power%20BI%201.png)
-👉 Click on the section headers below to view detailed information
 
 ---
 
